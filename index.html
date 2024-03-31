@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="act4.css">
+    <script src="act4.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="row">
+                <div id="result"></div>
+            </div>
+        </div>
+        <h2>Grade Calculator</h2>
+
+        <form id="gradeForm">
+
+            <label for="studentLRN">Student LRN:</label>
+            <input type="number" id="studentLRN" required><br><br>
+                        
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" required><br><br>
+                        
+            <label for=""quiz>Quiz:</label>
+            <input type="number" id="quiz" placeholder="1 - 10" required><br><br>
+                        
+            <label for="reciation">Reciation:</label>
+            <input type="number" id="reciation" placeholder="1 - 15" required><br><br>
+                        
+            <label for="longtest">Long test:</label>
+            <input type="number" id="longtest" placeholder="1 - 15" required><br><br>
+                        
+            <label for="project">Project:</label>
+            <input type="number" id="project" placeholder="1 - 35" required><br><br>
+                        
+            <label for="attendance">Attendance:</label>
+            <input type="number" id="attendance" placeholder="1 - 5" required><br><br>
+ 
+            <label for="exam">Exam:</label>
+            <input type="number" id="exam" placeholder="1 - 50" required><br><br>
+
+            <button type="button" onclick="calculatorGrade()">Calculate</button>
+        </form>
+
+        <script src="act4.js"></script>
+    </div>
+</body>
+</html>
