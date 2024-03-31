@@ -1,0 +1,19 @@
+body {
+    background: rgb(255,192,203);
+    background: linear-gradient(120deg, rgba(255,192,203,1) 25%, rgba(127,0,255,1) 50%, rgba(128,0,128,1) 75%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container {
+    background-color: transparent !important;
+    color: #fff;
+    border: 3px solid;
+    border-image: linear-gradient(120deg, rgba(255,192,203,1) 25%, rgba(127,0,255,1) 50%, rgba(128,0,128,1) 75%) 1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
